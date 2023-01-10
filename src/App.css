@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #05292e;
+    color: #eafae8;
+    font-family: Roboto,sans-serif;
+}
+
+img {
+   overflow: clip;
+}
+
+.mainContain{
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.status{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+
+.infoStatus{
+    width: 120px;
+    height: 30px;
+    background-color: #01171aa8;
+    border-radius: 0 5px 5px 0;
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 8%;
+    left: 0%;
+}
+
+.btnSearch{
+    width: 20%;
+    height: 25px;
+    border-radius: 0 12px 12px 0;
+    border: none;
+    color: #e3fae1;
+    border-left: 1px solid white;
+    background-color: #01171a;
+    font-weight: 400;
+}
+
+input{
+    width: 70%;
+    border: none;
+    border-radius: 12px 0 0 12px;
+    height: 25px;
+    background-color: #e3fae1;
+    color: #01171a;
+    text-align: center;
+}
+
+.input{
+    width: 90%;
+    max-width: 800px;
+    height: 50px;
+    margin: 2rem auto;
+    text-align: center;
+    border-radius: 25px;
+    background-color: #049696;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card_location{
+    width: 100%;
+    min-height: 120px;
+    padding: 0.5rem;
+    margin: 2rem auto 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: .8rem;
+    justify-content: space-between;
+    background-color: #01171a;
+    border-radius: 1rem;
+}
+
+.card_location h1{
+    width: 100%;
+    text-align: center;
+}
+
+.card_location p{
+    width: 33%;
+    text-align: center;
+}
+
+.getPage{
+    position: relative;
+    display: flex;
+    width: 350px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem
+}
+
+.btnPage{
+    width: 2.5rem;
+    height: 2.5rem;
+    position: relative;
+    background-color: transparent;
+    color: #f0f8ff;
+}
+
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+.residentContain{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    align-items: center;
+    justify-content: center;
+    margin: 3rem 0;
+    padding: 2rem 0;
+}
+
+.residentCard{
+    width: 40%;
+    height: 50%;
+    margin-bottom: 3rem;
+    background-color: #01171a;
+    position: relative;
+    border-radius: 1rem;
+    position: relative;
+}
+
+
+.residentCard img{
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+h2{
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+}
+
+.infoResident{
+    display: inline-flex;
+    position: relative;
+    width: 100%;
+    height: 30%;
+    justify-content: center;
+    align-content: space-around;
+    flex-wrap: wrap;
+}
